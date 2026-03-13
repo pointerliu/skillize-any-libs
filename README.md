@@ -21,15 +21,28 @@ The skill guides you through 8 steps:
 
 ## Supported Languages
 
-| Language | Registry | Search Pattern |
-|----------|----------|----------------|
-| Rust | crates.io | `depends:{lib}` |
-| Python | PyPI | `import {lib}` |
-| JavaScript | npm | `require("{lib}")` |
-| Go | pkg.go.dev | `"{lib}"` in go.mod |
-| C/C++ | GitHub only | `#include` |
+| Language | Registry | Search Pattern | Tested |
+|----------|----------|----------------|--------|
+| Rust | crates.io | `depends:{lib}` | ✅ Yes |
+| Python | PyPI | `import {lib}` | ❌ Not yet |
+| JavaScript | npm | `require("{lib}")` | ❌ Not yet |
+| Go | pkg.go.dev | `"{lib}"` in go.mod | ❌ Not yet |
+| C/C++ | GitHub only | `#include` | ❌ Not yet |
 
 ## Usage
+
+### Install the Skill
+
+Copy this skill to your AI editor's skills directory:
+
+**Claude Code / OpenCode:**
+```bash
+cp -r . ~/.claude/skills/skillize-any-libs
+# or
+cp -r . ~/.config/opencode/skills/skillize-any-libs
+```
+
+### Use the Skill
 
 When user says "skillize the lib X", load this skill and follow the workflow in SKILL.md.
 
