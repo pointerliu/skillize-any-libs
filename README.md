@@ -57,16 +57,6 @@ Generated SKILL.md is saved to:
 ~/.claude/skills/<lib_name>-usage/SKILL.md
 ```
 
-## File Structure
-
-```
-skillize-any-libs/
-├── SKILL.md          # Meta-skill (self-contained guide)
-├── README.md         # This file
-└── templates/        # SKILL.md templates
-    └── skill-template.md
-```
-
 ## Requirements
 
 - `git` - cloning repositories
